@@ -4,5 +4,5 @@ import androidx.room.PrimaryKey
 
 abstract class BaseEntity {
     @PrimaryKey(autoGenerate = true)
-    open val id: Long = 0
+    open var id: Long = 0
 }
